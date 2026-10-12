@@ -10,7 +10,9 @@
 
 | 版本 | 文件 | 大小 | 下载 |
 |---|---|---|---|
-| v2.4.1 | `DeepSeek Harness Setup 2.4.1.exe` | 106.5 MB | [Releases](https://github.com/gaochnexu/DeepSeekHarness-Desktop/releases/tag/v2.4.1) |
+| v2.4.1 | `DeepSeek.Harness.Setup.2.4.1.exe` | 106.5 MB | [直接下载](https://github.com/gaochnexu/DeepSeekHarness-Desktop/releases/download/v2.4.1/DeepSeek.Harness.Setup.2.4.1.exe) · [Release 页面](https://github.com/gaochnexu/DeepSeekHarness-Desktop/releases/tag/v2.4.1) |
+
+> 打包产物的原始文件名是 `DeepSeek Harness Setup 2.4.1.exe`（带空格）。上传到 GitHub Release 后空格被自动改写成点，下载时以 Release 上的实际文件名为准。
 
 ## 安装前须知
 
@@ -34,7 +36,7 @@ SHA256  B39AB4F53C2354AA64B655FA91CA65AFDE8576FD9C67C030D70EF9E7F1E26E31
 PowerShell：
 
 ```powershell
-Get-FileHash '.\DeepSeek Harness Setup 2.4.1.exe' -Algorithm SHA256
+Get-FileHash '.\DeepSeek.Harness.Setup.2.4.1.exe' -Algorithm SHA256
 ```
 
 ## 相关
